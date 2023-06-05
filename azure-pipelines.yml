@@ -19,7 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
    
 - task: ms-devlabs.custom-terraform-tasks.custom-terraform-installer-task.TerraformInstaller@0
-  displayName: : install terraform
+  displayName: install terraform
   inputs:
     terraformVersion: 'latest'
     
